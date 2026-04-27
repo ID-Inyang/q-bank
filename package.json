@@ -1,6 +1,6 @@
 {
   "packageManager": "pnpm@10.33.1+sha512.05ba3c1d5d1c18f68df06470d74055e62d41fc110a0c660db1b2dfb2785327f04cf0f68345d4609bc52089e7fa0343c31593b2f9594e2c5d5da426230acc9820",
-    "name": "productapi",
+  "name": "productapi",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -10,6 +10,7 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "axios": "^1.15.2",
     "bcrypt": "^6.0.0",
     "chalk": "^5.6.2",
     "cloudinary": "^2.9.0",
@@ -22,6 +23,8 @@
     "morgan": "^1.10.1",
     "multer": "^2.1.1",
     "nodemailer": "^8.0.5",
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }
