@@ -1,9 +1,9 @@
 {
   "packageManager": "pnpm@10.33.1+sha512.05ba3c1d5d1c18f68df06470d74055e62d41fc110a0c660db1b2dfb2785327f04cf0f68345d4609bc52089e7fa0343c31593b2f9594e2c5d5da426230acc9820",
-  "name": "productapi",
+  "name": "q-bank",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,11 +12,13 @@
   "dependencies": {
     "axios": "^1.15.2",
     "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
     "chalk": "^5.6.2",
     "cloudinary": "^2.9.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "express-validator": "^7.3.2",
     "jsonwebtoken": "^9.0.3",
     "mongodb": "^7.2.0",
     "mongoose": "^9.5.0",
@@ -25,6 +27,7 @@
     "nodemailer": "^8.0.5",
     "nodemon": "^3.1.14",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^14.0.0"
   }
 }
